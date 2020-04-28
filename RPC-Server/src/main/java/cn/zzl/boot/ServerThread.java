@@ -13,7 +13,11 @@ import java.net.Socket;
 import java.text.DecimalFormat;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/**
+ * 
+ * @author zzl
+ *
+ */
 public class ServerThread {
 	
 	private static ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
